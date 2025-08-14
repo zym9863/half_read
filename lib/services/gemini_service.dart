@@ -5,7 +5,7 @@ import '../models/summary_model.dart';
 
 class GeminiService {
   final String baseUrl = 'https://zym9863-gemini.deno.dev/v1/chat/completions';
-  final String model = 'gemini-2.5-flash-preview-04-17';
+  final String model = 'gemini-2.5-flash';
   String? _apiKey;
 
   Future<void> setApiKey(String apiKey) async {
