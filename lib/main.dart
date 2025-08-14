@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
           ),
           useMaterial3: true,
           textTheme: GoogleFonts.notoSansTextTheme(),
-          cardTheme: CardTheme(
+          // 卡片主题，需使用 CardThemeData 类型
+          cardTheme: CardThemeData(
             elevation: 2,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
@@ -80,7 +81,8 @@ class MyApp extends StatelessWidget {
           ),
           useMaterial3: true,
           textTheme: GoogleFonts.notoSansTextTheme(ThemeData.dark().textTheme),
-          cardTheme: CardTheme(
+          // 卡片主题，需使用 CardThemeData 类型
+          cardTheme: CardThemeData(
             elevation: 2,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
